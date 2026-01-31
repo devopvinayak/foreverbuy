@@ -3,7 +3,7 @@ import Title from '../components/Title'
 import CartTotal from '../components/CartTotal'
 import { assets } from '../assets/assets'
 import { useState } from 'react'
-import ShopContext from '../context/ShopContext.jsx'
+import { ShopContext } from '../context/ShopContext.jsx'
 
 
 const Placeorder = () => {
@@ -19,23 +19,23 @@ const Placeorder = () => {
         </div>
 
         <div className="flex gap-3">
-          <input className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='First Name' type="text" />
-          <input className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='Last Name' type="text" />
+          <input required className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='First Name' type="text" />
+          <input required className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='Last Name' type="text" />
         </div>
 
-        <input className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='E-mail address' type="email" />
-        <input className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='Street' type="text" />
+        <input required className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='E-mail address' type="email" />
+        <input required className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='Street' type="text" />
 
         <div className="flex gap-3">
-          <input className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='City' type="text" />
-          <input className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='State' type="text" />
+          <input required className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='City' type="text" />
+          <input  required className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='State' type="text" />
         </div>
         <div className="flex gap-3">
-          <input className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='Zip-Code' type="number" />
-          <input className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='Country' type="text" />
+          <input required className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='Zip-Code' type="number" />
+          <input required className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='Country' type="text" />
         </div>
 
-        <input className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='Phone' type="number" />
+        <input required className='border border-gray-300 rounded py-1.5 px-3.5 w-full' placeholder='Phone' type="number" />
       </div>
 
       {/* Right -Side */}
