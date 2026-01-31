@@ -3,7 +3,8 @@ import Title from '../components/Title'
 import CartTotal from '../components/CartTotal'
 import { assets } from '../assets/assets'
 import { useState } from 'react'
-import { ShopContext } from '../context/Shopcontext'
+import ShopContext from '../context/ShopContext.jsx'
+
 
 const Placeorder = () => {
   const [method, setMethod] = useState('cod')

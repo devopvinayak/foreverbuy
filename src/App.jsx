@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from "./pages/Home.jsx"
-import Collection from "./pages/Colletion.jsx"
+import Collection from "./pages/Collection.jsx"
 import Placeorder from "./pages/Placeorder.jsx"
 import About from "./pages/About.jsx"
 import Contact from "./pages/Contact.jsx"
